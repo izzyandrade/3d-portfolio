@@ -1,0 +1,285 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6749,
+      "max": [
+        15.518600463867188,
+        25.20400047302246,
+        97.1874008178711
+      ],
+      "min": [
+        -15.518600463867188,
+        -25.20400047302246,
+        -97.1874008178711
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80988,
+      "componentType": 5126,
+      "count": 6749,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6749,
+      "max": [
+        0.9995179772377014,
+        2.998650074005127
+      ],
+      "min": [
+        0.011988000012934208,
+        2.0040700435638428
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13956,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 161976,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        13.03950023651123,
+        6.928299903869629,
+        -84.5635986328125
+      ],
+      "min": [
+        -13.03950023651123,
+        -0.5199649930000305,
+        -87.58159637451172
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 165336,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        0.997119128704071,
+        0.9890000820159912,
+        3.863870460918406e-06
+      ],
+      "min": [
+        -0.997119128704071,
+        -0.9889997839927673,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53992,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        1.0605599880218506,
+        3.0837900638580322
+      ],
+      "min": [
+        0.019284000620245934,
+        2.0326900482177734
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 55824,
+      "componentType": 5125,
+      "count": 480,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "doclusifer2 (https://sketchfab.com/doclusifer2)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/fragata-coreliana-pesada-mk-3-295b22a8b3b34585bce7bd0a141b1d5a",
+      "title": "Fragata Coreliana Pesada Mk 3"
+    },
+    "generator": "Sketchfab-15.25.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 57744,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 56232,
+      "byteOffset": 57744,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168696,
+      "byteOffset": 113976,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 282672,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material_2_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material_1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8318207169492571
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material_2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8318207169492571
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -1.0,
+        1.6081226229577296e-16,
+        -2.2204460492503128e-16,
+        0.0,
+        -1.6081226229577292e-16,
+        -1.0,
+        -4.440892098500626e-16,
+        0.0,
+        -2.220446049250313e-16,
+        -4.440892098500626e-16,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Fragata Coreliana pesada mk 3.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
