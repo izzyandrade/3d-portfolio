@@ -207,27 +207,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+      'What most catches my attention about Israel is his intensity, in addition, he communicates very well with everyone and manages to provide excellent customer service, valuing quality and clarity, he is really a complete professional!',
+    name: 'Joabson de Souza',
+    designation: 'Tech Lead',
+    company: 'WiseUp Online',
+    image: 'https://media.licdn.com/dms/image/C4D03AQEmnIZbUb64Uw/profile-displayphoto-shrink_800_800/0/1633014066685?e=1691020800&v=beta&t=p8q03DPW-1NtlMF8Dc8xMPEvJCSFtFqqvUs3yuTl6b8'
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
+      "Great professional! I had the opportunity to work at a time when the project needed a helping hand to complete. Israel was quickly able to understand the whole project, being able to find and fix bugs very easily. He also has an excellent personality that helps to maintain a good atmosphere in the work environment, lively, curious, and reliable. The kind of person who is a pleasure to work with.",
+    name: 'Bruno Dias',
+    designation: 'Software Engineer',
+    company: 'Méliuz',
+    image: 'https://media.licdn.com/dms/image/D4D03AQEY_PhUyxeqVQ/profile-displayphoto-shrink_800_800/0/1669913811260?e=1691020800&v=beta&t=zFsqjPfcPXMh8Nk66PwJn8rl4UDYoeGO5DUqdqCDXKs'
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+      "Israel is a person always willing to learn and has the necessary humility to achieve surprising results if motivated, great professional, I recommend!",
+    name: 'Victor Hugo Gabriel',
+    designation: 'Senior Software Engineer',
+    company: 'Boston Globe',
+    image: 'https://media.licdn.com/dms/image/D4D03AQFZC2CRIDOZIQ/profile-displayphoto-shrink_800_800/0/1673443739912?e=1691020800&v=beta&t=c7MnOsWuB4eJ3S8xc9l7DQqZv7du6crGM0lThboiFQc'
   }
 ];
 
