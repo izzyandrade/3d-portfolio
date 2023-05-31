@@ -1,4 +1,4 @@
-import { styles } from '../style';
+import { styles } from '../styles';
 import ComputersCanvas from './canvas/Computers';
 
 const Hero = () => {

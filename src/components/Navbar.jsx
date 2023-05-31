@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { styles } from '../style';
+import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logoIzzy, menu, close } from '../assets';
 
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
         </Link>
         <ul className="hidden list-none flex-row items-center gap-10 sm:flex">
-          {navLinks.map((link, index) => {
+          {navLinks.map((link) => {
             return (
               <li
                 key={link.id}

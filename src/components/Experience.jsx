@@ -3,42 +3,21 @@ import {
   VerticalTimelineElement
 } from 'react-vertical-timeline-component';
 import { motion } from 'framer-motion';
+
 import 'react-vertical-timeline-component/style.min.css';
 
-import { styles } from '../style';
+import { styles } from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
-
-const Experience = () => {
-  return (
-    <>
-      <motion.div>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
-      </motion.div>
-
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
-      </div>
-    </>
-  );
-};
+import { textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: '#1d1836', color: '#fff' }}
+      contentStyle={{
+        background: '#1d1836',
+        color: '#fff'
+      }}
       contentArrowStyle={{ borderRight: '7px solid  #232631' }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -61,19 +40,44 @@ const ExperienceCard = ({ experience }) => {
           {experience.company_name}
         </p>
       </div>
+
       <ul className="ml-5 mt-5 list-disc space-y-2">
-        {experience.points.map((point, index) => {
-          return (
-            <li
-              key={`experience-point-${index}`}
-              className="plk-1 text-[14px] tracking-wider text-white-100"
-            >
-              {point}
-            </li>
-          );
-        })}
+        {experience.points.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className="pl-1 text-[14px] tracking-wider text-white-100"
+          >
+            {point}
+          </li>
+        ))}
       </ul>
     </VerticalTimelineElement>
+  );
+};
+
+const Experience = () => {
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          What I have done so far
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Work Experience.
+        </h2>
+      </motion.div>
+
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline>
+          {experiences.map((experience, index) => (
+            <ExperienceCard
+              key={`experience-${index}`}
+              experience={experience}
+            />
+          ))}
+        </VerticalTimeline>
+      </div>
+    </>
   );
 };
 

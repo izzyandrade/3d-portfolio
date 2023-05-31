@@ -24,9 +24,7 @@ import {
   tripguide,
   threejs,
   dentsu,
-  abercrombie,
-  aws,
-  graphql
+  abercrombie
 } from '../assets';
 
 export const navLinks = [
@@ -115,10 +113,6 @@ const technologies = [
   {
     name: 'docker',
     icon: docker
-  },
-  {
-    name: 'aws',
-    icon: aws
   }
 ];
 
@@ -211,23 +205,26 @@ const testimonials = [
     name: 'Joabson de Souza',
     designation: 'Tech Lead',
     company: 'WiseUp Online',
-    image: 'https://media.licdn.com/dms/image/C4D03AQEmnIZbUb64Uw/profile-displayphoto-shrink_800_800/0/1633014066685?e=1691020800&v=beta&t=p8q03DPW-1NtlMF8Dc8xMPEvJCSFtFqqvUs3yuTl6b8'
+    image:
+      'https://media.licdn.com/dms/image/C4D03AQEmnIZbUb64Uw/profile-displayphoto-shrink_800_800/0/1633014066685?e=1691020800&v=beta&t=p8q03DPW-1NtlMF8Dc8xMPEvJCSFtFqqvUs3yuTl6b8'
   },
   {
     testimonial:
-      "Great professional! I had the opportunity to work at a time when the project needed a helping hand to complete. Israel was quickly able to understand the whole project, being able to find and fix bugs very easily. He also has an excellent personality that helps to maintain a good atmosphere in the work environment, lively, curious, and reliable. The kind of person who is a pleasure to work with.",
+      'Great professional! I had the opportunity to work at a time when the project needed a helping hand to complete. Israel was quickly able to understand the whole project, being able to find and fix bugs very easily. He also has an excellent personality that helps to maintain a good atmosphere in the work environment, lively, curious, and reliable. The kind of person who is a pleasure to work with.',
     name: 'Bruno Dias',
     designation: 'Software Engineer',
     company: 'Méliuz',
-    image: 'https://media.licdn.com/dms/image/D4D03AQEY_PhUyxeqVQ/profile-displayphoto-shrink_800_800/0/1669913811260?e=1691020800&v=beta&t=zFsqjPfcPXMh8Nk66PwJn8rl4UDYoeGO5DUqdqCDXKs'
+    image:
+      'https://media.licdn.com/dms/image/D4D03AQEY_PhUyxeqVQ/profile-displayphoto-shrink_800_800/0/1669913811260?e=1691020800&v=beta&t=zFsqjPfcPXMh8Nk66PwJn8rl4UDYoeGO5DUqdqCDXKs'
   },
   {
     testimonial:
-      "Israel is a person always willing to learn and has the necessary humility to achieve surprising results if motivated, great professional, I recommend!",
+      'Israel is a person always willing to learn and has the necessary humility to achieve surprising results if motivated, great professional, I recommend!',
     name: 'Victor Hugo Gabriel',
     designation: 'Senior Software Engineer',
     company: 'Boston Globe',
-    image: 'https://media.licdn.com/dms/image/D4D03AQFZC2CRIDOZIQ/profile-displayphoto-shrink_800_800/0/1673443739912?e=1691020800&v=beta&t=c7MnOsWuB4eJ3S8xc9l7DQqZv7du6crGM0lThboiFQc'
+    image:
+      'https://media.licdn.com/dms/image/D4D03AQFZC2CRIDOZIQ/profile-displayphoto-shrink_800_800/0/1673443739912?e=1691020800&v=beta&t=c7MnOsWuB4eJ3S8xc9l7DQqZv7du6crGM0lThboiFQc'
   }
 ];
 

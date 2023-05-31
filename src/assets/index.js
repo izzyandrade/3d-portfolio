@@ -21,8 +21,6 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
-import aws from './tech/aws.png';
-import graphql from './tech/graphql.png';
 
 import madeira from './company/madeira.png';
 import udok from './company/udok.png';
@@ -66,7 +64,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  logoIzzy,
-  aws,
-  graphql
+  logoIzzy
 };
