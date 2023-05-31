@@ -66,7 +66,7 @@ const Navbar = () => {
             } black-gradient absolute right-0 top-20 z-10 mx-4 my-2 min-w-[140px] rounded-xl p-6`}
           >
             <ul className="flex list-none flex-col items-start justify-end gap-4">
-              {navLinks.map((link, index) => {
+              {navLinks.map((link) => {
                 return (
                   <li
                     key={link.id}
